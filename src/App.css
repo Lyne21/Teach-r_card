@@ -1,0 +1,220 @@
+html,
+body {
+  margin: 0;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#Sidebar{
+  line-height: 50px;
+    padding-left: 20px;
+    color: blue;
+    position: fixed;
+    left: 0;
+    right: 10px;
+    background-color: #f3f9ff;
+    width: 100vh;
+    height: 624px;
+}
+#Sidebar img
+{
+  margin-top: 150px;
+  margin-left:35px ;
+ height: 150px;
+ width: 250px;
+}
+
+
+#Sidebar ul {
+  margin-top: 60px;
+  margin-left: 25px;
+}
+#page-wrap
+{
+  position: relative;
+    
+    text-align: center;
+    color: #2253a5;
+}
+.Search
+{
+  position: relative;
+  
+  text-align: center;
+  margin-left: 45px;
+}
+input
+{
+  border: none;
+  background-color: #f3f9ff;
+  width: 400px;
+  height: 40px;
+}
+
+#page-wrap h1
+{
+  margin-left: 220px;
+}
+.column
+{
+  
+  background-color: #f3f9ff;
+  border:2px solid #f3f9ff;
+  border-radius: 10px;
+  
+}
+#card-container{
+  height: 300px;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-column-gap:20px;
+  justify-content: center;
+  position:relative;
+  top: 32px;
+  left: 200px;
+  
+}
+
+.image
+{
+    margin-top: -28px;
+    margin-left: 100px;
+    background-color: #9ed3ff;
+    border-radius: 50px;
+}
+#icone
+{
+    height: 20px;
+    width: 20px;
+}
+#Sidebar{
+  font-size: 1.5vw;
+}
+#Sidebar{
+  width: 30%;
+  padding: 0 2vw;
+  background-color: rgb(211, 209, 209);
+}
+  
+ul .icon{
+    color: rgb(24, 237, 24);
+    margin: auto 1vw;
+}
+#icon{
+    font-size: 1.15vw ;
+    margin: auto 1vw;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0.2vh 0.3vw;
+}
+
+
+#Sidebar h1{
+  color: rgb(42, 132, 235);
+  margin-bottom: 69px; 
+}
+
+#Sidebar h1 strong{
+  color: rgb(220, 17, 17);
+}
+.first
+{
+    position: relative;
+    left: 0px;
+    top: 40px;
+    line-height: 30px;
+}
+#titre
+{
+    text-align: center;
+}
+.texte-lorem
+{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.nom
+{
+    color: #2253a5;
+    text-align: center;
+}
+.noms
+{
+    color: #2253a5;
+    margin-left:40px;
+    margin-top:60px;
+}
+
+button
+{
+  background-color: #2253a5;
+  color: white;
+  height: 35px;
+  width: 140px;
+  border-radius: 40px;
+  margin-left: 30px;
+  border: none;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  margin: auto;
+}
+
+.boutton2
+{
+border: 1px solid blue;
+background-color: white;
+color: blue;
+margin-top: 10px;
+}
+
+.boutton1
+{
+border: 1px solid white;
+background-color: white;
+color: black;
+margin-top: 10px;
+}
+
+
+
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
